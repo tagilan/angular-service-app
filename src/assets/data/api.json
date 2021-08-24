@@ -1,0 +1,631 @@
+{
+  "transactionId": "92e9fe33-c123-4fad-bf6535da86d3",
+  "output":{
+    "list":[
+      {
+        "region": "Africa",
+        "apis":[
+          {
+            "apiName": "Address Validation",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Locations",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Pickup",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Track",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Rate",
+            "rateSubApis":[
+              {
+                "apiName": "Rate Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          },
+          {
+            "apiName":"Ship",
+            "shipSubApis":[
+              {
+                "apiName": "Ship Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Ship SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "Americas and Caribbean",
+        "apis":[
+          {
+            "apiName": "Address Validation",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Locations",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Pickup",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Track",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Rate",
+            "rateSubApis":[
+              {
+                "apiName": "Rate Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Rate SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          },
+          {
+            "apiName":"Ship",
+            "shipSubApis":[
+              {
+                "apiName": "Ship Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Ship SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "Asia Pacific",
+        "apis":[
+          {
+            "apiName": "Address Validation",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Locations",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Pickup",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Track",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Rate",
+            "rateSubApis":[
+              {
+                "apiName": "Rate Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Rate SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          },
+          {
+            "apiName":"Ship",
+            "shipSubApis":[
+              {
+                "apiName": "Ship Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Ship SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "Europe",
+        "apis":[
+          {
+            "apiName": "Address Validation",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Locations",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Pickup",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Track",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Rate",
+            "rateSubApis":[
+              {
+                "apiName": "Rate Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Rate SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          },
+          {
+            "apiName":"Ship",
+            "shipSubApis":[
+              {
+                "apiName": "Ship Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Ship SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "Indian Sub-Continent",
+        "apis":[
+          {
+            "apiName": "Address Validation",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Locations",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Pickup",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Track",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Rate",
+            "rateSubApis":[
+              {
+                "apiName": "Rate Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Rate SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          },
+          {
+            "apiName":"Ship",
+            "shipSubApis":[
+              {
+                "apiName": "Ship Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Ship SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "Middle East",
+        "apis":[
+          {
+            "apiName": "Address Validation",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Locations",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Pickup",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Track",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Rate",
+            "rateSubApis":[
+              {
+                "apiName": "Rate Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Rate SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          },
+          {
+            "apiName":"Ship",
+            "shipSubApis":[
+              {
+                "apiName": "Ship Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Ship SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "region": "Africa",
+        "apis":[
+          {
+            "apiName": "Address Validation",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Locations",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Pickup",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Track",
+            "status": "Operational",
+            "upTime": "98%",
+            "avgResponseTime": "160ms"
+          },
+          {
+            "apiName": "Rate",
+            "rateSubApis":[
+              {
+                "apiName": "Rate Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Rate Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Rate SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          },
+          {
+            "apiName":"Ship",
+            "shipSubApis":[
+              {
+                "apiName": "Ship Express",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Freight",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+              {
+                "apiName": "Ship Ground",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              },
+
+              {
+                "apiName": "Ship SmartPost",
+                "status": "Operational",
+                "upTime": "98%",
+                "avgResponseTime": "160ms"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "userRegion": "Indian Sub-Continent",
+    "Country": "India"
+  }
+}
