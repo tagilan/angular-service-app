@@ -7,7 +7,7 @@
         "apis":[
           {
             "apiName": "Address Validation",
-            "status": "Operational",
+            "status": "Incident",
             "upTime": "98%",
             "avgResponseTime": "160ms"
           },
@@ -95,7 +95,7 @@
         "apis":[
           {
             "apiName": "Address Validation",
-            "status": "Operational",
+            "status": "Outage",
             "upTime": "98%",
             "avgResponseTime": "160ms"
           },

@@ -1,3 +1,18 @@
 .table-container{
   min-height:90vh;
 }
+
+.region-container{
+  display: flex;
+}
+
+.status-image{
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+:host ::ng-deep  .datatable-body-cell-label{
+  display: flex;
+  align-items: center;
+}

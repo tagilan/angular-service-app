@@ -5,6 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { ServiceStatusComponent } from './service-status/service-status.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+import { NgSelectModule } from '@ng-select/ng-select';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +18,9 @@ import { ServiceStatusComponent } from './service-status/service-status.componen
     BrowserModule,
     AppRoutingModule,
     NgxDatatableModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    NgSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
