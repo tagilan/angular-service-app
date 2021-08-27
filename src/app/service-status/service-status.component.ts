@@ -15,6 +15,8 @@ export class ServiceStatusComponent implements OnInit {
   timeout: any;
   apiData: any;
   userRegion: string = "Indian Sub-Continent";
+  country: string = "";
+  lastUpdated: any = new Date();
 
   regions = [
     { name: 'Americas and Caribbean' },
@@ -30,6 +32,7 @@ export class ServiceStatusComponent implements OnInit {
     this.fetch((data: any) => {
       console.log(data);
       this.apiData = data;
+      this.country = data?.country
       this.computeRegionData(this.apiData, this.userRegion);
     });
   }

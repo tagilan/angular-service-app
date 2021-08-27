@@ -1,25 +1,44 @@
 <div class="table-container">
+  <p class="updated-time flex-display">
+    <img src="/assets/images/refresh.svg" alt="Last updated timestamp" />
+    <strong>Last Updated : </strong>{{ lastUpdated | date: "medium" }}
+  </p>
   <div class="region-container">
-    <h2 style="float: left; width: 50%">Service Outage</h2>
-    <ng-select
-      style="float: right; width: 50%"
-      [clearable]="false"
-      [searchable]="false"
-      [(ngModel)]="userRegion"
-      placeholder="REGION"
-      (change)="onRegionChange($event)"
-    >
-      <ng-option *ngFor="let region of regions" [value]="region.name">{{
-        region.name
-      }}</ng-option>
-    </ng-select>
+    <div class="title-container">
+      <h2 class="flex-display">
+        <img src="{{ getStatusImage('Outage') }}" alt="status text" />
+        <div class="status-title">
+          <p>Service Outage</p>
+          <a class="view-details-link">VIEW DETAILS</a>
+        </div>
+      </h2>
+    </div>
+    <div class="filter-container">
+      <ng-select
+        class="flex-display flex-display"
+        [clearable]="false"
+        [searchable]="false"
+        [(ngModel)]="userRegion"
+        placeholder="REGION"
+        (change)="onRegionChange($event)"
+      >
+        <ng-option *ngFor="let region of regions" [value]="region.name">{{
+          region.name
+        }}</ng-option>
+      </ng-select>
+
+      <p class="location-text flex-display">
+        <img src="/assets/images/marker.png" alt="Last updated timestamp" />
+        API Test location: New Delhi, India
+      </p>
+    </div>
   </div>
 
   <ngx-datatable
     #myTable
-    class="material expandable"
+    class="material expandable data-table"
     [headerHeight]="50"
-    [footerHeight]="150"
+    [footerHeight]="180"
     [rowHeight]="50"
     [rows]="rows"
   >
@@ -70,6 +89,7 @@
           <ngx-datatable-column prop="upTime" name="UP TIME" [width]="100">
             <ng-template let-value="value" ngx-datatable-cell-template>
               <span>{{ value }}</span>
+              <img style="height: 10px" src="/assets/images/info.svg" />
             </ng-template>
           </ngx-datatable-column>
 
@@ -156,9 +176,37 @@
       <ng-template ngx-datatable-footer-template>
         <div style="padding: 20px 20px">
           <strong>DEFINITIONS</strong>
-          <p>Outage</p>
-          <p>Incident</p>
-          <p>Operational</p>
+          <div class="def-list">
+            <div class="flex-display def-item">
+              <div class="def-label flex-display">
+                <img
+                  src="{{ getStatusImage('Outage') }}"
+                  alt="Service outage"
+                />
+                Outage
+              </div>
+              <div class="def-desc">API(s) are not performing as expected</div>
+            </div>
+            <div class="flex-display def-item">
+              <div class="def-label flex-display">
+                <img src="{{ getStatusImage('Incident') }}" alt="Incident" />
+                Incident
+              </div>
+              <div class="def-desc">
+                Some aspects of the API(s) are not performing as expected.
+              </div>
+            </div>
+            <div class="flex-display def-item">
+              <div class="def-label flex-display">
+                <img
+                  src="{{ getStatusImage('Operational') }}"
+                  alt="Operational"
+                />
+                Operational
+              </div>
+              <div class="def-desc">API(s) are performing as expected</div>
+            </div>
+          </div>
         </div>
       </ng-template>
     </ngx-datatable-footer>
