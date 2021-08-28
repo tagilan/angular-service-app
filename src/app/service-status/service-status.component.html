@@ -19,7 +19,6 @@
         [clearable]="false"
         [searchable]="false"
         [(ngModel)]="userRegion"
-        placeholder="REGION"
         (change)="onRegionChange($event)"
       >
         <ng-option *ngFor="let region of regions" [value]="region.name">{{

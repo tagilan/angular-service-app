@@ -133,3 +133,12 @@
 .def-desc{
   width: 70%;
 }
+
+:host ::ng-deep .ng-select .ng-select-container{
+  border: 1px solid #d2cdcd;
+  padding: 0 10px;
+}
+
+:host ::ng-deep .ng-select .ng-select-container:after{
+  border: none;
+}
