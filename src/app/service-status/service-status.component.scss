@@ -66,6 +66,12 @@
 
 .filter-container{
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
+
+  .filter-item{
+    width: 300px;
+  }
 }
 
 .location-text{

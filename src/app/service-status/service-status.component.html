@@ -14,22 +14,24 @@
       </h2>
     </div>
     <div class="filter-container">
-      <ng-select
-        class="flex-display flex-display"
-        [clearable]="false"
-        [searchable]="false"
-        [(ngModel)]="userRegion"
-        (change)="onRegionChange($event)"
-      >
-        <ng-option *ngFor="let region of regions" [value]="region.name">{{
-          region.name
-        }}</ng-option>
-      </ng-select>
+      <div class="filter-item">
+        <ng-select
+          class="flex-display flex-display"
+          [clearable]="false"
+          [searchable]="false"
+          [(ngModel)]="userRegion"
+          (change)="onRegionChange($event)"
+        >
+          <ng-option *ngFor="let region of regions" [value]="region.name">{{
+            region.name
+          }}</ng-option>
+        </ng-select>
 
-      <p class="location-text flex-display">
-        <img src="/assets/images/marker.png" alt="Last updated timestamp" />
-        API Test location: New Delhi, India
-      </p>
+        <p class="location-text flex-display">
+          <img src="/assets/images/marker.png" alt="Last updated timestamp" />
+          API Test location: New Delhi, India
+        </p>
+      </div>
     </div>
   </div>
 
