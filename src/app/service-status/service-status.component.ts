@@ -15,30 +15,35 @@ export class ServiceStatusComponent implements OnInit {
   timeout: any;
   apiData: any;
   userRegion: string = "Indian Sub-Continent";
-  country: string = "";
+  location: string = "New Delhi, India";
   lastUpdated: any = new Date();
 
   regions = [
-    { name: 'Americas and Caribbean' },
-    { name: 'Asia Pacific' },
-    { name: 'Europe' },
-    { name: 'Indian Sub-Continent' },
-    { name: 'Middle East' },
-    { name: 'Africa' },
+    { name: 'Americas and Caribbean', location: "Memphis, TN, USA" },
+    { name: 'Asia Pacific', location: "Beijing, China" },
+    { name: 'Europe', location: "Amsterdam, Netherlands" },
+    { name: 'Indian Sub-Continent', location: "New Delhi, India" },
+    { name: 'Middle East', location: "Dubai, United Arab Emirates" },
+    { name: 'Africa', location: "Johannesburg, South Africa" },
   ];
 
 
   constructor() {
     this.fetch((data: any) => {
-      console.log(data);
       this.apiData = data;
-      this.country = data?.country
       this.computeRegionData(this.apiData, this.userRegion);
     });
   }
 
   onRegionChange(event: any) {
     this.computeRegionData(this.apiData, event);
+    this.getLocation(event);
+  }
+
+  getLocation(region: any) {
+    var loc = this.regions.find((re: any) => re.name == region)
+    this.location = loc?.location || "New Delhi, India"
+
   }
 
   computeRegionData(apiData: any, region: string) {
