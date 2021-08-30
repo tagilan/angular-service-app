@@ -8,7 +8,6 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 export class ServiceStatusComponent implements OnInit {
   @ViewChild('myTable') table: any;
   @ViewChild('subTable') subTable: any;
-  selected = 'option2';
 
   rows: any[] = [];
   expanded: any = {};
@@ -26,7 +25,6 @@ export class ServiceStatusComponent implements OnInit {
     { name: 'Middle East', location: "Dubai, United Arab Emirates" },
     { name: 'Africa', location: "Johannesburg, South Africa" },
   ];
-
 
   constructor() {
     this.fetch((data: any) => {

@@ -148,3 +148,14 @@
 :host ::ng-deep .ng-select .ng-select-container:after{
   border: none;
 }
+
+:host ::ng-deep .datatable-header-cell-template-wrap{
+  display: flex;
+  align-items: center;
+}
+
+.img-info{
+  height: 18px;
+  width: 18px;
+  margin-left: 3px;
+}
