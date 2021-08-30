@@ -169,6 +169,9 @@
           placement="bottom"
           src="assets/images/info.svg"
           alt="Info"
+          [mdePopoverTriggerFor]="appPopover"
+          mdePopoverTriggerOn="click"
+          #popoverTrigger="mdePopoverTrigger"
         />
       </ng-template>
       <ng-template let-value="value" ngx-datatable-cell-template>
@@ -184,7 +187,15 @@
     >
       <ng-template let-column="column" ngx-datatable-header-template>
         <span>AVG. RESPONSE</span>
-        <img class="img-info" src="assets/images/info.svg" alt="Info" />
+        <img
+          class="img-info"
+          placement="bottom"
+          src="assets/images/info.svg"
+          alt="Info"
+          [mdePopoverTriggerFor]="appPopover"
+          mdePopoverTriggerOn="click"
+          #popoverTrigger="mdePopoverTrigger"
+        />
       </ng-template>
       <ng-template let-row="row" let-value="value" ngx-datatable-cell-template>
         <span>{{ value }}</span>
@@ -231,3 +242,9 @@
     </ngx-datatable-footer>
   </ngx-datatable>
 </div>
+
+<mde-popover #appPopover="mdePopover" [mdePopoverOverlapTrigger]="false">
+  <div class="popover-content">
+    Calculated over the last 90 days for the region selected
+  </div>
+</mde-popover>

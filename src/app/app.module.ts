@@ -8,6 +8,7 @@ import { ServiceStatusComponent } from './service-status/service-status.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { NgSelectModule } from '@ng-select/ng-select';
+import { MdePopoverModule } from '@material-extended/mde';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
     BrowserAnimationsModule,
     FormsModule,
     NgSelectModule,
+    MdePopoverModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

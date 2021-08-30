@@ -10,3 +10,4 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: #868
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+@import '~@angular/cdk/overlay-prebuilt.css';
