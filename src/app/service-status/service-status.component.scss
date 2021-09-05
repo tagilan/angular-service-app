@@ -121,6 +121,7 @@
 .def-list{
   width: 600px;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .def-item{
@@ -167,4 +168,15 @@
   background-color: #fff;
   padding:20px 10px;
   box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.notes-info{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.help-text{
+  font-size: 14px;
+text-align: center;
+margin-top: 3rem;
 }

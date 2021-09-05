@@ -39,7 +39,7 @@
     #myTable
     class="material expandable data-table"
     [headerHeight]="50"
-    [footerHeight]="180"
+    [footerHeight]="380"
     [rowHeight]="50"
     [rows]="rows"
   >
@@ -237,6 +237,21 @@
               <div class="def-desc">API(s) are performing as expected</div>
             </div>
           </div>
+          <strong>NOTES</strong>
+          <div class="notes-info">
+            <p>
+              Uptime % and response time are calculated over the last 90 days
+              for the region selected.
+            </p>
+            <p>
+              Everything displayed on this page is derrived from synthetic
+              transactions,so you mayexperience different results.
+            </p>
+          </div>
+          <p class="help-text">
+            Are you having trouble connecting to our APIs? Gethelp directly from
+            <a>Developer Support</a>
+          </p>
         </div>
       </ng-template>
     </ngx-datatable-footer>
